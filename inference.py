@@ -31,7 +31,7 @@ def inference():
         imageB = datapipe._preprocess_for_test(inputB)
 
         """ build network """
-        net = model.CGNet()
+        net = model.P2SNet()
         net.inference(imageA, imageB)
         globla_vars = tf.global_variables()
         slim.model_analyzer.analyze_vars(globla_vars, print_info=True)
@@ -136,8 +136,12 @@ def rand_style_infer():
 
 if __name__ == '__main__':
 
-    # inference()
-    rand_style_infer()
+    if FLAGS.rand_style:
+        print('rand')
+        rand_style_infer()
+    else:
+        print('inference')
+        inference()
 
 
 

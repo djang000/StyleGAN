@@ -22,7 +22,7 @@ def saveimg(img, path):
     sm.imsave(path, invert_img)
 
 if __name__ == '__main__':
-    os.environ["CUDA_VISIBLE_DEVICES"] = "3"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     global_step = tf.train.create_global_step()
     dataA, dataB = datapipe.get_dataset()
 

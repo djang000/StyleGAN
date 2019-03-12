@@ -117,6 +117,9 @@ tf.app.flags.DEFINE_integer(
     'image_size', 256,
     'resize image so that the min edge equals to image_size')
 
+tf.app.flags.DEFINE_bool('rand_style', False, 'inference mode')
+
 tf.app.flags.DEFINE_string('f', '', 'kernel')
+
 
 FLAGS = tf.app.flags.FLAGS
