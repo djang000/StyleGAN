@@ -16,7 +16,7 @@ tf.app.flags.DEFINE_string(
     'Directory where checkpoints and event logs are written to.')
 
 tf.app.flags.DEFINE_string(
-    'checkpoint_model', './output/models/Cartoon_GAN_final.ckpt',
+    'checkpoint_model', './output/models/Style_GAN_final.ckpt',
     'Path to checkpoint model')
 
 tf.app.flags.DEFINE_string(

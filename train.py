@@ -126,7 +126,7 @@ if __name__ == '__main__':
 
                 if current_step % 3000 == 0:
                     # Save a checkpoint
-                    save_path = 'output/training/Cartoon_GAN(p2s).ckpt'
+                    save_path = 'output/training/Style_GAN(p2s).ckpt'
                     saver.save(sess, save_path, global_step=current_step)
 
                 if current_step + 1 == FLAGS.max_iters:
@@ -136,7 +136,7 @@ if __name__ == '__main__':
         except tf.errors.OutOfRangeError:
             print('Error occured')
         finally:
-            saver.save(sess, './output/models/Cartoon_GAN_final(p2s).ckpt', write_meta_graph=False)
+            saver.save(sess, './output/models/Style_GAN_final(p2s).ckpt', write_meta_graph=False)
             coord.request_stop()
 
         coord.join(threads)
