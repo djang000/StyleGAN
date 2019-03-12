@@ -31,7 +31,7 @@ if __name__ == '__main__':
     lr = tf.placeholder(tf.float32, name='learning_rate')
 
     """ build network """
-    net = model.CGNet()
+    net = model.P2SNet()
     net.train(dataA, dataB, rand_style_A, rand_style_B)
 
     """ setting traning vars and Optimizer """

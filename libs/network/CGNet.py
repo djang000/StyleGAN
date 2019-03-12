@@ -1,5 +1,5 @@
 """
-The implementation of Cartoon Transfrom network ).
+The implementation of Photo2Style Transfer network.
 
 File author: TJ Park
 Date: 24. Dec. 2018
@@ -12,10 +12,10 @@ import tensorflow.contrib.slim as slim
 
 FLAGS = tf.app.flags.FLAGS
 
-class CGNet(object):
+class P2SNet(object):
     def __init__(self):
         """
-        Cartoon GAN Construction
+        Photo2Style GAN Construction
         """
         self.weight_decay = FLAGS.weight_decay
         self.style_dim = 8
