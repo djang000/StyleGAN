@@ -21,10 +21,6 @@ This is an implementation of a Photo2Style Generator Architecture for GAN on ten
     <tr >
     	<td><center>Photo</center></td>
         <td><center>Style</center></td>
-        <td><center>Photo with style</center></td>
-        <td><center>Style with Photo</center></td>
-        <td><center>Photo with rand style</center></td>
-        <td><center>Style with rand Photo</center></td>
     </tr>
     <tr>
     	<td>
@@ -33,12 +29,24 @@ This is an implementation of a Photo2Style Generator Architecture for GAN on ten
     	<td>
     		<center><img src="/output/0.0009-1/oriB.jpg"></center>
     	</td>
+    </tr>
+    <tr >
+        <td><center>Photo with style</center></td>
+        <td><center>Style with Photo</center></td>
+    </tr>
+    <tr>
         <td>
         	<center><img src="/output/0.0009-1/fake_AB.jpg"></center>
         </td>
         <td>
         	<center><img src="/output/0.0009-1/fake_BA.jpg"></center>
         </td>
+    </tr>
+    <tr >
+        <td><center>Photo with rand style</center></td>
+        <td><center>Style with rand Photo</center></td>
+    </tr>
+    <tr>
 	<td>
         	<center><img src="/output/0.0009-1/rand_AB.jpg"></center>
         </td>
@@ -46,5 +54,6 @@ This is an implementation of a Photo2Style Generator Architecture for GAN on ten
         	<center><img src="/output/0.0009-1/rand_BA.jpg"></center>
         </td>
     </tr>
+
 </table>
 
