@@ -12,7 +12,7 @@ import numpy as np
 import scipy.misc as sm
 import tensorflow as tf
 import datasets.datapipe as datapipe
-import libs.network.CGNet as model
+import libs.network.P2SNet as model
 import tensorflow.contrib.slim as slim
 
 FLAGS = tf.app.flags.FLAGS
