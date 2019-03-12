@@ -28,22 +28,22 @@ This is an implementation of a Photo2Style Generator Architecture for GAN on ten
     </tr>
     <tr>
     	<td>
-    		<center><img src="/output/0.0009-1/oriA.jpg" height="280"></center>
+    		<center><img src="/output/0.0009-1/oriA.jpg" height="256"></center>
     	</td>
     	<td>
-    		<center><img src="/output/0.0009-1/oriB.jpg" height="280"></center>
+    		<center><img src="/output/0.0009-1/oriB.jpg" height="256"></center>
     	</td>
         <td>
-        	<center><img src="/output/0.0009-1/fake_AB.jpg" height="280"></center>
+        	<center><img src="/output/0.0009-1/fake_AB.jpg" height="256"></center>
         </td>
         <td>
-        	<center><img src="/output/0.0009-1/fake_BA.jpg" height="280"></center>
+        	<center><img src="/output/0.0009-1/fake_BA.jpg" height="256"></center>
         </td>
 	<td>
-        	<center><img src="/output/0.0009-1/rand_AB.jpg" height="280"></center>
+        	<center><img src="/output/0.0009-1/rand_AB.jpg" height="256"></center>
         </td>
         <td>
-        	<center><img src="/output/0.0009-1/rand_BA.jpg" height="280"></center>
+        	<center><img src="/output/0.0009-1/rand_BA.jpg" height="256"></center>
         </td>
     </tr>
 </table>
