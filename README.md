@@ -4,7 +4,7 @@ This is an implementation of a Photo2Style Generator Architecture for GAN on ten
 # Getting Started
 * ([P2SNet.py](/libs/network/P2SNet.py), [config.py](/libs/configs/config.py)): These files are the main Photo to Style Generator network.
 
-* ([datapipe.py](/datasets/datapipi.py)): This file's role is loading and changing to tensor your dataset taht are in photo2rtyle folder. you must put your training dataset in ([photo2style](/datasets/photo2style))
+* ([datapipe.py](/datasets/datapipe.py)): This file's role is loading and changing to tensor your dataset taht are in photo2rtyle folder. you must put your training dataset in ([photo2style](/datasets/photo2style))
 
 * ([pretrained_models](/pretrained_models)): you put the pretrained ([VGG 19](http://download.tensorflow.org/models/vgg_19_2016_08_28.tar.gz)) model in this folder.
 
